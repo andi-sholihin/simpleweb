@@ -12,3 +12,5 @@ simple web content management system built with PHP and MySQL
 3. Import **simpleweb.sql** in **database** folder
 4. Open **http://localhost/simpleweb/myadmin** for admin page
 5. Click menu **Pengaturan** (setting) for setting your website
+
+For more information, visit : http://www.sholihin.com/2016/03/download-web-cms-sederhana-berbasis-php.html
