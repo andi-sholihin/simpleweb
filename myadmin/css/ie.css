@@ -1,0 +1,36 @@
+/* -----------------------------------------------------------------------
+
+
+ Blueprint CSS Framework 0.8
+ http://blueprintcss.org
+
+   * Copyright (c) 2007-Present. See LICENSE for more info.
+   * See README for instructions on how to use Blueprint.
+   * For credits and origins, see AUTHORS.
+   * This is a compressed file. See the sources in the 'src' directory.
+
+----------------------------------------------------------------------- */
+
+/* ie.css */
+body {text-align:center;}
+.container {text-align:left;}
+
+* html legend {margin:0px -8px 16px 0;padding:0;}
+
+sup {vertical-align:text-top;}
+sub {vertical-align:text-bottom;}
+html>body p code {*white-space:normal;}
+hr {margin:-8px auto 11px;}
+.clearfix, .container {display:inline-block;}
+* html .clearfix, * html .container {height:1%;}
+fieldset {padding-top:0;}
+input[type=checkbox]{border:none;}
+input[type=radio]{border:none;}
+#shortcuts{padding:5px;padding-bottom:0px;width:650px;}
+legend{margin-top:0px;}
+.noborder{border:0px;}
+#shortcuts ul li{margin-bottom:0px;padding-bottom:0px;}
+#table_options ul li a {color:#000;display:block;padding-top:7px;}
+
+.form_sidebar ul li {margin:-5px 0px;padding:0px;list-style:none;}
+.form_sidebar ul li ul{margin:0px 10px;padding:0px;list-style:none;}

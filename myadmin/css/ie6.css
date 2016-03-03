@@ -1,0 +1,42 @@
+/* -----------------------------------------------------------------------
+
+
+ Blueprint CSS Framework 0.8
+ http://blueprintcss.org
+
+   * Copyright (c) 2007-Present. See LICENSE for more info.
+   * See README for instructions on how to use Blueprint.
+   * For credits and origins, see AUTHORS.
+   * This is a compressed file. See the sources in the 'src' directory.
+
+----------------------------------------------------------------------- */
+
+/* ie.css */
+body {text-align:center;}
+.container {text-align:left;}
+* html .column, * html div.span-1, * html div.span-2, * html div.span-3, * html div.span-4, * html div.span-5, * html div.span-6, * html div.span-7, * html div.span-8, * html div.span-9, * html div.span-10, * html div.span-11, * html div.span-12, * html div.span-13, * html div.span-14, * html div.span-15, * html div.span-16, * html div.span-17, * html div.span-18, * html div.span-19, * html div.span-20, * html div.span-21, * html div.span-22, * html div.span-23, * html div.span-24 {overflow-x:hidden;}
+* html legend {margin:0px -8px 16px 0;padding:0;}
+ol {margin-left:2em;}
+sup {vertical-align:text-top;}
+sub {vertical-align:text-bottom;}
+html>body p code {*white-space:normal;}
+hr {margin:-8px auto 11px;}
+.clearfix, .container {display:inline-block;}
+* html .clearfix, * html .container {height:1%;}
+fieldset {padding-top:0;}
+input[type=checkbox]{border:none;}
+input[type=radio]{border:none;}
+#shortcuts{padding:5px;padding-bottom:0px;width:650px;}
+legend{margin-top:0px;}
+.noborder{border:0px;}
+#shortcuts ul{margin-bottom:0px;}
+ul#menu li ul li{overflow:hidden; height:35px;}
+.form_sidebar ul li label input{overflow:hidden; height:15px;padding:0px;margin:0px;}
+a#visit{display:block;color:#fff;background:#4780ae;border-left:1px solid #084577;border:1px solid #7ab7e8;padding:4px;margin:5px 5px 0px 0px;-moz-border-radius:3px;}
+
+#table_options ul li a {color:#000;display:block;padding-top:7px;}
+legend span{padding:10px;  display: block;}
+
+.form_sidebar h3{margin-bottom:15px;}
+.form_sidebar ul li {margin:-5px 0px;padding:0px;list-style:none;}
+.form_sidebar ul li ul{margin:0px 10px;padding:0px;list-style:none;}

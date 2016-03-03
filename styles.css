@@ -1,0 +1,618 @@
+/*
+Design by Metamorphosis Design
+http://www.metamorphozis.com
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+*
+{
+border: 0;
+margin: 0;
+}
+
+img
+{
+border: 0px;
+}
+
+body{
+	font: 12px Arial, Helvetica, sans-serif;
+	background: url(images/bg.jpg);
+	line-height: 18px;
+}
+
+#bg_clouds { background: url(images/bg_clouds.jpg) top center no-repeat;}
+	
+#main {
+	width: 1000px;
+	margin: 0px auto;
+	background:url(images/main.jpg) right top no-repeat;
+	padding-top: 20px;
+}
+
+#header { 
+	width:1000px;
+	height: 184px;
+}
+
+#logo {	
+		padding: 37px 0px 0px 18px;
+		height: 75px;
+}
+
+#logo H2 {
+
+		font-family: Arial, Helvetica, sans-serif;
+		color:#ffffff;
+		font-size:18px;
+		font-style:italic;
+		background: no-repeat;
+		}
+
+#logo a {
+	text-decoration: none;
+	font-style: italic;
+	font-size: 16px;
+	color: #ffffff;
+}
+	
+#logo H2 a{
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight:100;
+}
+
+#buttons{
+	text-align:center;
+	height: 56px;
+	padding-left: 0px;
+	background: url(images/buttons.png) left top no-repeat;
+	padding: 0px 0px 0px 25px;
+}
+
+#buttons a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: 100;
+	display: block;
+	float: left;
+	text-decoration: none;
+	color: #ffffff;
+	text-align: center;
+	padding-top: 22px;
+	height: 34px;
+	
+}
+
+.but {
+	width: 150px;
+}
+
+#buttons .but:hover {
+	background: url(images/but_hover.jpg) top repeat-x;
+	}
+	
+.but_t {background: url(images/but_hover.gif) center bottom no-repeat;}
+
+.top_top {
+	background: url(images/top_top.png) left top no-repeat;
+	height: 24px;}
+	
+.top { height:200px;
+		background: url(images/top.jpg) 23px top no-repeat #FFFFFF;}
+
+.top_bot {
+	background: url(images/top_bot.png) left bottom no-repeat;
+	height: 24px;}
+
+
+#content{
+	background: url(images/content.png);
+	padding: 0px 24px 0px 24px;
+	color: #000000;
+}
+
+#content_gal{
+	background: url(images/content.png);
+	padding: 0px 13px 0px 13px;
+	color: #000000;
+}
+
+.cont_top{
+	background: url(images/cont_top.png) left top no-repeat;
+	height: 24px;
+}
+
+.cont_bot{
+	background: url(images/cont_bot.png) left bottom no-repeat;
+	height: 24px;
+}
+
+.razd_h { height: 30px;
+			background: url(images/razd_h.gif) 15px repeat-x;}
+
+.home_box {
+	float: left;
+	width: 305px; }
+	
+.razd_lr_h { background: url(images/razd_lr.gif) 620px repeat-y;}
+
+.razd_lr { background: url(images/razd_lr.gif) 697px repeat-y;}
+
+
+#left{
+	width: 680px;
+	float: left;
+	margin-left: 0px;
+}
+
+
+#left_h{
+	width: 590px;
+	float: left;
+	margin-left: 0px;
+}
+
+.text{
+	padding: 0px 0px 15px 0px;
+}
+
+.img_l {	float:left;
+		margin: 5px 14px 3px 0px;
+}
+
+.img_r {	float: right;
+		margin: 9px 10px 3px 10px;
+}
+
+.span_cont {	color: #4ACBE2;
+	font-size:12px;
+	font-weight:bold;
+}
+
+ h1{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:18px;
+	font-weight: 100;
+	color: #074690;
+	text-align: left;
+	padding: 0px 0px 0px 0px;
+	line-height:normal;
+}
+
+.spis_1 {
+	list-style:none;
+	padding: 0px 0px 0px 0px;}
+
+.spis_1 li {
+	padding: 5px 0px 0px 18px;
+	background: url(images/fish_spis_1.gif) 0px 10px no-repeat;
+	}
+	
+.spis_1 a {
+	color:#000000;
+	text-decoration:none;
+	font-weight: 100;
+	display: block;
+	font-weight:bold;}
+.spis_1 a:hover {
+	text-decoration: underline;
+	}
+
+.read {
+	font-size:12px;
+	color: #FF0000;
+	text-decoration: none;
+	display:block;
+	line-height: 17px;
+	width: 66px;
+	text-align: center;
+	float: right;
+	font-weight:bold;
+	
+}
+
+.read:hover {
+	font-size:12px;
+	text-decoration: underline;
+}
+
+
+
+#right{
+	float: right;
+	width: 235px;
+	margin-right: 0px;
+}
+
+#right_h{
+	float: right;
+	width: 316px;
+	margin-right: 0px;
+}
+
+.span_dat {
+	color: #000000;
+	text-decoration: underline;
+	font-weight: bold;
+	padding-bottom: 5px;}
+	
+#bottom {
+	background: url(images/bottom.gif) 43px 30px no-repeat;
+	color: #FFFFFF;
+}
+
+#bottom_bot {
+	background: url(images/bottom.gif) 43px bottom no-repeat;
+	color: #FFFFFF;
+}
+
+#bottom h1 { 
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: 100;
+	text-align: center;
+	padding: 5px 0px 5px 0px;
+			}
+
+#b_col1 {
+	width: 253px;
+	float: left;
+	margin-left: 43px;
+}
+#b_col2 {
+	width: 253px;
+	float: left;
+	margin-left: 85px;
+}
+#b_col3 {
+	width: 253px;
+	float: left;
+	margin-left: 85px;
+	text-align: left;
+}
+
+
+.box_us {
+width: 244px;
+background: url(images/box_us.gif) 0px bottom repeat-x;
+}
+
+.box_us_l {
+width: 27px;
+float: left;
+padding-top:3px;}
+
+.box_us_r {
+width: 217px;
+float: left;}
+
+
+.spis_bot {
+	list-style:none;
+	padding: 0px 0px 0px 34px;}
+
+.spis_bot li {
+	padding: 7px 0px 0px 18px;
+	background: url(images/fish2.gif) 0px 12px no-repeat;
+	}
+	
+.spis_bot a {
+	color:#ffffff;
+	text-decoration:none;
+	font-weight: 100;
+	display: block;
+	font-weight:bold;}
+.spis_bot a:hover {
+	text-decoration: underline;
+	}
+	
+.fu_i {
+	padding: 0px 14px 0px 0px;
+	vertical-align: middle ;
+}
+
+#b_col3 ul {
+	list-style:none;
+	padding: 0px 0px 0px 52px;}
+
+#b_col3 li {
+	padding: 8px 0px 2px 0px;
+	background: none;
+	}
+	
+#b_col3 li a {
+	color:#FFFFFF;
+	text-decoration: none;
+	font-weight: bold;}
+	
+#b_col3 li a:hover {
+	text-decoration: underline;
+}
+
+#footer{
+	height: 63px;
+	font-size: 10px;
+	color: #ffffff;
+	text-align: center;
+	padding: 22px 0px 0px 0px;
+	background: url(images/footer.jpg) 0px 15px no-repeat;
+}
+
+#footer a{
+	color: #ffffff;
+	font-size: 10px;
+	text-decoration: none;
+}
+
+#footer a:hover{
+	color: #ffffff;
+	font-size: 10px;
+	text-decoration: underline;
+}
+
+.lh {
+	line-height: 22px;
+}
+
+/* blog */
+
+.va_m { vertical-align:middle;}
+
+.datc_coment {
+	height: 26px;
+	background:url(images/datc_coment.gif) top repeat-x;
+	padding: 10px 0px 0px 10px;}
+
+.datc  {
+	float: left;
+	width: 346px;}
+
+.coment {
+	float: right;
+	width: 146px;
+	text-align: right;}
+
+.datc_coment a {
+	color: #074690;
+	text-decoration:none;
+	font-weight: bold;
+	font-size:12px;}
+
+.datc_coment a:hover {
+	text-decoration:underline;}
+
+.spis {
+	list-style:none;
+	padding: 0px 0px 0px 25px;}
+
+.spis  li {
+	padding: 8px 0px 2px 16px;
+	background: url(images/fish_spis.gif) left 14px no-repeat;
+	}
+.spis a:hover {
+	text-decoration: none;
+	color:#FF0000;
+	}
+	
+.spis a {
+	color:#000000;
+	text-decoration:none;
+	font-weight: bold;}
+	
+.a_blog {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:16px;
+	font-weight: bold;
+	color: #074690;
+	text-align: left;
+	padding: 5px 0px 10px 0px;
+	text-decoration: none;
+	display:block;
+}
+
+.a_blog:hover { text-decoration: underline;}
+
+h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:18px;
+	font-weight: 100;
+	color: #074690;
+	text-align: left;
+	padding: 0px 0px 10px 25px;
+	line-height:normal;
+	background: url(images/razd_h.gif) bottom repeat-x;
+}
+
+/* gallery */
+
+
+.gal_num {
+	background: url(images/gal_num.png) 0px 0px no-repeat;
+	width: 14px;
+	height: 20px;
+	padding: 1px 0px 0px 6px;
+	display:block;
+	margin-right: 5px;
+	color: #FFFFFF;
+	font-size: 12px;
+	float:left;
+	text-decoration: none; }
+	
+.gal_num:hover { background: url(images/gal_num_hover.png) 0px 0px no-repeat;}
+
+.row {
+	padding: 0px 0px 0px 0px;
+	height: 273px;
+}
+
+.box_img2 {
+	width: 272px;
+	height: 273px;
+	background: url(images/box_img.png) 0px 0px no-repeat;
+	padding: 0px 20px 0px 20px;
+	float:left;
+	color: #000000;
+}
+
+#preview{
+	position:absolute;
+	border:1px solid #ccc;
+	background:#333;
+	padding:5px;
+	display:none;
+	color:#fff;
+	}
+
+
+.box_razd {
+	width: 19px;
+	height: 50px;
+	float: left;
+}
+
+h4 {
+	font-weight:100;
+	font-size: 18px;
+	color: #000000;
+	padding: 15px 0px 17px 0px;}
+
+
+
+
+/* about us */
+
+.bottom_text { padding: 0px 0px 0px 19px;}
+
+.bottom_text a { color:#000000;
+				text-decoration:none;}
+.bottom_text a:hover { text-decoration:underline;}				
+
+/* contact us */
+
+#left label {
+	width: 103px;
+	float:left;
+	padding: 5px 0px 0px 5px;}
+
+.input_txt2 {	
+	width: 585px;
+	border: none;
+	background: url(images/input_txt2.gif) left top no-repeat;
+	padding: 6px 10px 6px 10px;
+	color:#ffffff;
+
+}
+
+.text_area2 {
+	width: 585px;
+	height: 123px;
+	border: none;
+	background: url(images/text_area2.gif) 0px 0px no-repeat;
+	padding: 6px 10px 6px 10px;
+	color:#ffffff;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.submit2 {
+	background: url(images/submit2.png) right 0px no-repeat;
+	text-align: center;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	padding: 6px 0px 7px 0px;
+	font-size:12px;
+	color: #ffffff;
+	text-decoration: none;
+	width: 76px;
+	margin: 0px 54px 0px 0px;
+}
+
+
+
+/*=================================*/
+/* Nivo Slider Demo
+/* November 2010
+/* By: Gilbert Pellegrom
+/* http://dev7studios.com
+/*=================================*/
+
+
+#slider-wrapper {
+    background:url(images/top.jpg) no-repeat;
+    width:954px;
+    height: 200px;
+    margin:0 auto;
+}
+
+#slider {
+	position:relative;
+    width: 954px;
+    height:200px;
+	background:url(images/loading.gif) no-repeat 50% 50%;
+}
+#slider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+	display:none;
+}
+#slider a {
+	border:0;
+	display:block;
+}
+
+.nivo-controlNav {
+	position:absolute;
+	left:260px;
+	bottom:-42px;
+	display: none;
+}
+.nivo-controlNav a {
+	display:block;
+	width:22px;
+	height:22px;
+	background:url(images/bullets.png) no-repeat;
+	text-indent:-9999px;
+	border:0;
+	margin-right:3px;
+	float:left;
+}
+.nivo-controlNav a.active {
+	background-position:0 -22px;
+}
+
+.nivo-directionNav a {
+	display:block;
+	width:30px;
+	height:30px;
+	background:url(images/arrows.png) no-repeat;
+	text-indent:-9999px;
+	border:0;
+}
+a.nivo-nextNav {
+	background-position:-30px 0;
+	right:15px;
+}
+a.nivo-prevNav {
+	left:15px;
+}
+
+.nivo-caption {
+    text-shadow:none;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.nivo-caption a { 
+    color:#efe9d1;
+    text-decoration:underline;
+}
+
+.tombol{
+	background-color:#4780AE; 
+	color:#FFFFFF;
+	font-size:18px; 
+	float:right;
+}
+.form_pesan{
+	border:1px inset #666666;
+	font-size:16px;
+	color:#333333;
+}
