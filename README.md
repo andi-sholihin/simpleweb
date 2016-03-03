@@ -9,7 +9,7 @@ simple web content management system built with PHP and MySQL
   or via git:  
   `git clone https://github.com/andi-sholihin/simpleweb simpleweb`  
 2. Open **PhpMyAdmin** and create database **simpleweb**
-3. Import **simpleweb.sql** in **database** folder
+3. Import **simpleweb.sql** file in **database** folder to PhpMyAdmin
 4. Open **http://localhost/simpleweb/myadmin** for admin page
 5. Click menu **Pengaturan** (setting) for setting your website
 
