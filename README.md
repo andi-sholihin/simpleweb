@@ -1,7 +1,13 @@
 # Simpleweb
+
+[![GitHub stars](https://img.shields.io/github/stars/andi-sholihin/simpleweb.svg)](https://github.com/andi-sholihin/simpleweb/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/andi-sholihin/simpleweb.svg)](https://github.com/andi-sholihin/simpleweb/network)
+[![GitHub issues](https://img.shields.io/github/issues/andi-sholihin/simpleweb.svg)](https://github.com/andi-sholihin/simpleweb/issues)
+
+## Description
 simple web content management system built with PHP and MySQL
 
-### How To Use :
+## How To Use :
 
 1. Download script to your **htdocs** or **www** folder :  
 
